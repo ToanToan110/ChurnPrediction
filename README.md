@@ -11,3 +11,13 @@ Imagine we are the member of a Retail/Telcos company and we wants to fuel its gr
 > ***Retention rate/Churn rate*** is an index that measures the product's suitability in the market, helping businesses better access the market.
 
 > Controlling and predicting these indicators will help businesses be proactive and ensure customers are always satisfied with their services and always want to use their services.
+## Prerequisites
+Package: Pandas, Matplotlib, Numpy
+
+Techniques: K-means
+
+## Resources 
+Dataset: This notebook use [Telco Dataset]([https://www.kaggle.com/datasets/vijayuv/onlineretail](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)) on Kaggle
+
+References: 
+[- https://towardsdatascience.com/data-driven-growth-with-python-part-1-know-your-metrics-812781e66a5b](https://towardsdatascience.com/churn-prediction-3a4a36c2129a)
