@@ -17,7 +17,16 @@ Package: Pandas, Matplotlib, Numpy
 Techniques: K-means
 
 ## Resources 
-Dataset: This notebook use [Telco Dataset]([https://www.kaggle.com/datasets/vijayuv/onlineretail](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)) on Kaggle
+Dataset: This notebook use Telco Dataset (https://www.kaggle.com/datasets/vijayuv/onlineretail](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) on Kaggle
 
 References: 
 [- https://towardsdatascience.com/data-driven-growth-with-python-part-1-know-your-metrics-812781e66a5b](https://towardsdatascience.com/churn-prediction-3a4a36c2129a)
+
+# Explodatory analysis
+
+Avarage churn rate by each features:
+
+![image](https://github.com/ToanToan110/ChurnPrediction/assets/64849001/4a10042e-464d-4df3-8390-523d6c87983b)
+
+
+
