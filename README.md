@@ -87,7 +87,6 @@ So:
 
 - The number of customers using fiber optic network (InternetService = 'FiberOptic') increases by 1 unit, the churn rate increases by 1.84 units if other factors do not change
 - If the customer's tenure increases by 1 unit, the churn rate increases or decreases by 0.987 (=1 - 0.013002) units if other features do not change.
-- **MonthlyCharges**, **TotalCharges** và **Tenure** là những yếu tố quan trọng nhất ảnh hưởng tới tỉ lệ rời bỏ.
 
 # Predic the Churn:
 We use XGBOOST for prediction task and got this result:
@@ -101,3 +100,9 @@ But it's hard to predict and detect the label 1 (this is because of the number o
 Solution for this is:
 - Apply balance data
 - Increase the size of the label 1
+
+The XGBOOST also has the function **plot_importance**, we try to take a look at this:
+
+![image](https://github.com/ToanToan110/ChurnPrediction/assets/64849001/66e3f4b6-5d2b-4c58-9ffc-efcdf3b4b1cf)
+
+- **MonthlyCharges**, **TotalCharges** và **Tenure** là những yếu tố quan trọng nhất ảnh hưởng tới tỉ lệ rời bỏ.
